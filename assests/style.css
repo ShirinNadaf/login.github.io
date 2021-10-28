@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+} 
+.wrap{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrap-1{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+ /* background-color: #202020; */
+}
+.wrap-2{
+ width: 400px;
+ height: 750px;
+ background:#fff;
+ border-radius: 5px;
+ overflow:hidden;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.logo img{
+   margin-top:20px;
+   margin-left:35px;
+   height:45px; 
+}
+.banner img{
+	margin-top:45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.text h1{  
+  margin-top: 60px;
+   font-size:45px;
+   text-align: center;
+   justify-content: center;
+   font-weight:bold;
+} 
+
+.text p{
+  color:rgb(160,165,173);
+  font-weight: 300;
+	text-align:center;
+  margin-top: 30px;
+	/* margin-top:-20px; */
+	margin-left:50px;
+	margin-right:50px;
+}
+.btns{
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ #btn_1{
+    width: 35%;
+    margin: 5px;
+    background-color:#0920AF;
+	border-color:#0920AF;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 8px 16px;
+    height: 50px;
+ }
+ #btn_2{
+    width: 35%;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 8px 16px;
+    height: 50px;
+ }
+ .btns .btn-2{
+     background-color: #fff;
+ }
+
+ p
+ { 
+   margin-top: 20px;
+	 text-align:center;
+   color:rgb(160,165,173);
+ }
+ .social-login
+ {
+   margin-top: 40px;
+	 text-align: center;
+ }
+
+	.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border-color:blue;
+  
+}
+
+.fa-facebook {
+	border: 1px solid #0920AF;
+  color: #0920AF;
+}
+
+.fa-phone {
+border: 1px solid #0920AF;
+  color: #0920AF;
+}
+
+.fa-google {
+  border: 1px solid #0920AF;
+
+  color: #0920AF;
+}
+
+.btns:hover, 
+.btns:focus {
+  animation: btns 1s;
+  box-shadow: 0 0 0 2em rgba(#828abb,0);
+}
+
+@keyframes btns{
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
